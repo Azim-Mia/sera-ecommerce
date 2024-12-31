@@ -21,6 +21,7 @@ export default {
       'gray-dark': '#273444',
       'gray': '#8492a6',
       'gray-light': '#d3dce6',
+      'lama':'#F35C7A',
     }, 
     screens:{
         'xs':'304px',
