@@ -16,7 +16,7 @@ const handleProfile =()=>{
   serIsProfileOpen((prev)=>!prev);
 }
   return (<>
-  <div className="flex gap-4 lg:gap-6 relative">
+  <div className="flex gap-4 lg:gap-6">
    <div className="relative">
     <Image src="/cart_2.png" onClick={()=>serIsCartOpen((prev)=>!prev)} alt ="logo" width={28} height={28} />
     <div className="absolute -top-4 -right-4 w-6 h-6 bg-lama rounded-full text-sm text-white flex justify-center items-center">2</div>
