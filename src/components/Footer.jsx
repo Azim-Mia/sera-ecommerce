@@ -2,9 +2,9 @@ import Link from 'next/link';
 import Image from 'next/image';
 const Footer =()=>{
   return(<>
-  <div className="flex justify-center gap-24 items-center py-12 px-4 md:px-8 lg:px-16 xl:px-32 2xl:px-64 bg-[#000] text-[#FFF] text-sm mt-24 xs:flex-col sm:flex-row">
+  <div className="flex justify-center items-center py-12 px-4 md:px-8 lg:px-16 xl:px-32 2xl:px-64 bg-[#000] text-[#FFF] text-sm mt-24 xs:flex-col sm:flex-row">
     {/*TOP*/}
-  <div className="flex justify-center text-center flex-col xs:flex-col md:flex-row sm:flex-row justify-between gap-x-24 gap-y-10">
+  <div className="flex justify-center text-center items-center flex-row xs:flex-col sm:flex-col justify-between gap-x-24 gap-y-10">
     {/*LEFT*/}
     <div className="w-full md:w-1/2 lg:w-1/4 flex flex-col gap-4">
     <Link href="/"><div className="text-2xl tracking-wide"> LIMA</div></Link>
