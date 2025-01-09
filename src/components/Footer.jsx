@@ -12,7 +12,7 @@ const Footer =()=>{
     <p className="text-semibold text-1xl">Dewangonj Market, Fassion_House</p>
   <span className="text-semibold">mdazimmia53@gmail.com</span>
   <span className="text-semibold">+8801703357281</span>
-  <div className="flex gap-6 xs:ml-64">
+  <div className="flex gap-6 xs:ml-20">
 <Image src="/facebook.png" width={28} height={28} alt="image" />
 <Image src="/instagram.png" width={28} height={28} alt="image" />
 <Image src="/youtube.webp" width={28} height={28} alt="image" />
@@ -20,7 +20,7 @@ const Footer =()=>{
   </div>
     </div>
     {/*CENTER*/}
-        <div className="flex gap-4 xs:ml-64">
+        <div className="flex gap-4 xs:ml-12">
         <div className="flex flex-col gap-6">
         <h1>COMPANY</h1>
         <div className="flex flex-col">
