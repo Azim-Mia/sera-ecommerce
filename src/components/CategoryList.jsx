@@ -1,51 +1,49 @@
 import Link from 'next/link';
 import Image from 'next/image';
 const CategoryList = ()=>{
-  return (<div className = "mt-10 mb-2 flex gap-x-8 gap-y-16 justify-between flex-wrap">
-  <Link href="/list" className="w-full flex flex-col gap-4 sm:w-[45%] lg:w-[22%]">
-  <div className="relative h-96 w-full">
-    <Image src="/product_2.jpeg" alt="product" fill size="25vw" className="absolute object-cover rounded-sm hover:opacity-0 transition-opacity  easy duration-500" />
-  </div>
-  <div className="flex justify-between">
-  <span className="font-medum">Product Name</span>
-    <span className="font-semibold">Price: $**</span>
-  </div>
-  <div className="text-sm text-gray">describtion</div>
-  <button className="rounded-2xl ring-1 ring-lama text-lame py-2 px-4 hover:bg-lama hover:text-white">Add-to-cart</button>
-  </Link>
-   <Link href="/list" className="w-full flex flex-col gap-4 sm:w-[45%] lg:w-[22%]">
-  <div className="relative h-96 w-full">
-    <Image src="/product_5.jpeg" alt="product" fill size="25vw" className="absolute object-cover rounded-sm hover:opacity-0 transition-opacity  easy duration-500" />
-  </div>
-  <div className="flex justify-between">
-  <span className="font-medum">Product Name</span>
-    <span className="font-semibold">Price: $**</span>
-  </div>
-  <div className="text-sm text-gray">describtion</div>
-  <button className="rounded-2xl ring-1 ring-lama text-lame py-2 px-4 hover:bg-lama hover:text-white">Add-to-cart</button>
-  </Link>
-     <Link href="/list" className="w-full flex flex-col gap-4 sm:w-[45%] lg:w-[22%]">
-  <div className="relative h-96 w-full">
-    <Image src="/product_6.jpeg" alt="product" fill size="25vw" className="absolute object-cover rounded-sm hover:opacity-0 transition-opacity  easy duration-500" />
-  </div>
-  <div className="flex justify-between">
-  <span className="font-medum">Product Name</span>
-    <span className="font-semibold">Price: $**</span>
-  </div>
-  <div className="text-sm text-gray">describtion</div>
-  <button className="rounded-2xl ring-1 ring-lama text-lame py-2 px-4 hover:bg-lama hover:text-white">Add-to-cart</button>
-  </Link>
-     <Link href="/list" className="w-full flex flex-col gap-4 sm:w-[45%] lg:w-[22%]">
-  <div className="relative h-96 w-full">
-    <Image src="/product_7.jpeg" alt="product" fill size="25vw" className="absolute object-cover rounded-sm hover:opacity-0 transition-opacity  easy duration-500" />
-  </div>
-  <div className="flex justify-between">
-  <span className="font-medum">Product Name</span>
-    <span className="font-semibold">Price: $**</span>
-  </div>
-  <div className="text-sm text-gray">describtion</div>
-  <button className="rounded-2xl ring-1 ring-lama text-lame py-2 px-4 hover:bg-lama hover:text-white">Add-to-cart</button>
-  </Link>
+  return (<div className ="px-4 overflow-x-scroll scrollbar-hide">
+<div className="flex gap-4 md:gap-8">
+<Link href="/list?cart=test" className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/4 2xl:w-1/6">
+<div className="relative bg-slate-100 w-full h-96">
+<Image src="/images/product_1.jpeg" alt="product" fill sizes="20vw" className="object-cover"/></div>
+<h1 className="mt-8 font-coral text-cl tracking-wide">Category Name</h1>
+</Link>
+<Link href="/list?cart=test" className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/4 2xl:w-1/6">
+<div className="relative bg-slate-100 w-full h-96">
+<Image src="/images/product_1.jpeg" alt="product" fill sizes="20vw" className="object-cover"/></div>
+<h1 className="mt-8 font-coral text-cl tracking-wide">Category Name</h1>
+</Link>
+<Link href="/list?cart=test" className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/4 2xl:w-1/6">
+<div className="relative bg-slate-100 w-full h-96">
+<Image src="/images/product_1.jpeg" alt="product" fill sizes="20vw" className="object-cover"/></div>
+<h1 className="mt-8 font-coral text-cl tracking-wide">Category Name</h1>
+</Link>
+<Link href="/list?cart=test" className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/4 2xl:w-1/6">
+<div className="relative bg-slate-100 w-full h-96">
+<Image src="/images/product_1.jpeg" alt="product" fill sizes="20vw" className="object-cover"/></div>
+<h1 className="mt-8 font-coral text-cl tracking-wide">Category Name</h1>
+</Link>
+<Link href="/list?cart=test" className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/4 2xl:w-1/6">
+<div className="relative bg-slate-100 w-full h-96">
+<Image src="/images/product_1.jpeg" alt="product" fill sizes="20vw" className="object-cover"/></div>
+<h1 className="mt-8 font-coral text-cl tracking-wide">Category Name</h1>
+</Link>
+<Link href="/list?cart=test" className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/4 2xl:w-1/6">
+<div className="relative bg-slate-100 w-full h-96">
+<Image src="/images/product_1.jpeg" alt="product" fill sizes="20vw" className="object-cover"/></div>
+<h1 className="mt-8 font-coral text-cl tracking-wide">Category Name</h1>
+</Link>
+<Link href="/list?cart=test" className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/4 2xl:w-1/6">
+<div className="relative bg-slate-100 w-full h-96">
+<Image src="/images/product_1.jpeg" alt="product" fill sizes="20vw" className="object-cover"/></div>
+<h1 className="mt-8 font-coral text-cl tracking-wide">Category Name</h1>
+</Link>
+<Link href="/list?cart=test" className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/4 2xl:w-1/6">
+<div className="relative bg-slate-100 w-full h-96">
+<Image src="/images/product_1.jpeg" alt="product" fill sizes="20vw" className="object-cover"/></div>
+<h1 className="mt-8 font-coral text-cl tracking-wide">Category Name</h1>
+</Link>
+</div>
   </div>)
 }
 export default CategoryList;
