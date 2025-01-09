@@ -2,16 +2,17 @@ import Link from 'next/link';
 import Image from 'next/image';
 const Footer =()=>{
   return(<>
-  <div className="flex justify-center items-center py-12 px-4 md:px-8 lg:px-16 xl:px-32 2xl:px-64 bg-[#000] text-[#FFF] text-sm mt-24 xs:flex-col sm:flex-row">
+  <div className="flex justify-center gap-24 items-center py-12 px-4 md:px-8 lg:px-16 xl:px-32 2xl:px-64 bg-[#000] text-[#FFF] text-sm mt-24 xs:flex-col sm:flex-col-2">
     {/*TOP*/}
-  <div className="flex justify-center text-center items-center flex-row xs:flex-col sm:flex-col justify-between gap-x-24 gap-y-10">
+  <div className="flex text-center items-center flex-row xs:flex-wrap sm:flex-wrap gap-x-24 gap-y-10">
     {/*LEFT*/}
     <div className="w-full md:w-1/2 lg:w-1/4 flex flex-col gap-4">
-    <Link href="/"><div className="text-2xl tracking-wide"> LIMA</div></Link>
+    <Link href="/">
+    <div className="text-2xl tracking-wide"> LIMA</div></Link>
     <p className="text-semibold text-1xl">Dewangonj Market, Fassion_House</p>
   <span className="text-semibold">mdazimmia53@gmail.com</span>
   <span className="text-semibold">+8801703357281</span>
-  <div className="flex gap-6">
+  <div className="flex gap-6 xs:ml-64">
 <Image src="/facebook.png" width={28} height={28} alt="image" />
 <Image src="/instagram.png" width={28} height={28} alt="image" />
 <Image src="/youtube.webp" width={28} height={28} alt="image" />
@@ -19,7 +20,7 @@ const Footer =()=>{
   </div>
     </div>
     {/*CENTER*/}
-        <div className="flex gap-4 xs:ml-12">
+        <div className="flex gap-4 xs:ml-64">
         <div className="flex flex-col gap-6">
         <h1>COMPANY</h1>
         <div className="flex flex-col">
@@ -60,7 +61,7 @@ const Footer =()=>{
       </div>
       <div>
       <span className="text-semibold">Surce Payments</span>
-        <div className="flex justify-between" >
+        <div className="flex gap-4" >
       <Image src="/instagram.png" width={40} height={20} alt="image" />
       <Image src="/instagram.png" width={40} height={20} alt="image" />
       <Image src="/instagram.png" width={40} height={20} alt="image" />
