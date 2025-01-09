@@ -18,7 +18,6 @@ const handleProfile =()=>{
   return (<>
   <div className="flex z-20 gap-4 sm:gap-6 lg:gap-10">
    <div className="relative">
-   <img src="/images/cart_2.png" alt="photos" className="h-5 w-5" />
     <Image src="/images/cart_2.png" onClick={()=>serIsCartOpen((prev)=>!prev)} alt ="logo" width={28} height={28} className=""/>
     <div className="absolute -top-4 -right-4 w-6 h-6 bg-lama rounded-full text-sm text-white flex justify-center items-center">2</div>
    </div>
