@@ -8,7 +8,7 @@ const CartModuls = ()=>{
   {/*Product --1*/}
   <>
   <div className="flex justify-between gap-2">
-    <Image src="/product_5.jpeg" alt="products" width={72} height={96} className="object-cover rounded-md"/>
+    <Image src="/images/product_5.jpeg" alt="products" width={72} height={96} className="object-cover rounded-md"/>
     {/*top*/}
     <div className="flex flex-col justify-between w-full">
      {/*title*/}
@@ -27,7 +27,7 @@ const CartModuls = ()=>{
   </div>
 {/*Product --2*/}
  <div className="flex justify-between gap-2">
-    <Image src="/product_4.jpeg" alt="products" width={72} height={96} className="object-cover rounded-md "/>
+    <Image src="/images/product_4.jpeg" alt="products" width={72} height={96} className="object-cover rounded-md "/>
     {/*top*/}
     <div className="flex flex-col justify-between w-full">
      {/*title*/}
