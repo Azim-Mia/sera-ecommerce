@@ -5,13 +5,17 @@ const nextConfig = {
       {
       protocol:"https",
       hostname:"google.com",
-      },
+      }
     ]
   },
     images:{
     localPatterns:[
       {
 pathname: '/assets/images/**',
+        search: '',
+      },
+            {
+pathname: '/images/**',
         search: '',
       },
     ]
