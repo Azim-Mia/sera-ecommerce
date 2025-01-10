@@ -2,12 +2,18 @@
 import React,{useState,useEffect} from 'react';
 import Image from 'next/image'
 import Link from 'next/link';
+import product_1 from '../assets/images/product_1.jpeg'
+import product_2 from '../assets/images/product_2.jpeg'
+import product_3 from '../assets/images/product_3.jpeg'
+import product_4 from '../assets/images/product_4.jpeg'
+import product_5 from '../assets/images/product_5.jpeg'
+import product_6 from '../assets/images/product_6.jpeg'
 const slides=[
   {
    id:1,
    title:"summer sale collections ",
    des:"Sale! Up to 30% Off!",
-   img:"../assets/images/product_1.jpeg",
+   img:product_1,
    url:"/",
    bg:"bg-gradient-to-r from-yellow to-pink",
   },
@@ -15,7 +21,7 @@ const slides=[
   id:2,
    title:"summer sale collections ",
    des:"Sale! Up to 40% Off!",
-   img:"../assets/images/product_2.jpeg",
+   img:product_2,
    url:"/",
    bg:"bg-gradient-to-r from-yellow to-pink",
   },
@@ -23,7 +29,7 @@ const slides=[
   id:3,
    title:"summer sale collections ",
    des:"Sale! Up to 50% Off!",
-   img:"../assets/images/product_3.jpeg",
+   img:product_3,
    url:"/",
    bg:"bg-gradient-to-r from-yellow to-pink",
   },
@@ -31,7 +37,7 @@ const slides=[
   id:4,
    title:"summer sale collections ",
    des:"Sale! Up to 60% Off!",
-   img:"../assets/images/product_4.jpeg",
+   img:product_4,
    url:"/",
    bg:"bg-gradient-to-r from-yellow to-pink",
   },
@@ -39,7 +45,7 @@ const slides=[
   id:5,
    title:"summer sale collections ",
    des:"Sale! Up to 70% Off!",
-   img:"../assets/images/product_5.jpeg",
+   img:product_5,
    url:"/",
    bg:"bg-gradient-to-r from-yellow to-pink",
   }
