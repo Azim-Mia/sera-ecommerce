@@ -1,12 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  
   images:{
-    remotePatterns:[
+    localPatterns:[
       {
-      protocol:"https",
-      hostname:"google.com",
-    },
+pathname: '/images/**',
+        search: '',
+      },
     ]
   }
 };

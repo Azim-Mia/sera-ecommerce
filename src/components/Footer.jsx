@@ -13,10 +13,10 @@ const Footer =()=>{
   <span className="text-semibold">mdazimmia53@gmail.com</span>
   <span className="text-semibold">+8801703357281</span>
   <div className="flex gap-6 xs:ml-10">
-<Image src="/facebook.png" width={28} height={28} alt="image" />
-<Image src="/instagram.png" width={28} height={28} alt="image" />
-<Image src="/youtube.webp" width={28} height={28} alt="image" />
-<Image src="/twitter.webp" width={28} height={28} alt="image" />
+<Image src="/images/facebook.png" width={28} height={28} alt="image" />
+<Image src="/images/instagram.png" width={28} height={28} alt="image" />
+<Image src="/images/youtube.webp" width={28} height={28} alt="image" />
+<Image src="/images/twitter.webp" width={28} height={28} alt="image" />
   </div>
     </div>
     {/*CENTER*/}
@@ -62,11 +62,11 @@ const Footer =()=>{
       <div>
       <span className="text-semibold">Surce Payments</span>
         <div className="flex gap-4" >
-      <Image src="/instagram.png" width={40} height={20} alt="image" />
-      <Image src="/instagram.png" width={40} height={20} alt="image" />
-      <Image src="/instagram.png" width={40} height={20} alt="image" />
-      <Image src="/instagram.png" width={40} height={20} alt="image" />
-      <Image src="/instagram.png" width={40} height={20} alt="image" />
+      <Image src="/images/instagram.png" width={40} height={20} alt="image" />
+      <Image src="/images/instagram.png" width={40} height={20} alt="image" />
+      <Image src="/images/instagram.png" width={40} height={20} alt="image" />
+      <Image src="/images/instagram.png" width={40} height={20} alt="image" />
+      <Image src="/images/instagram.png" width={40} height={20} alt="image" />
       </div>
       </div>
       </div>

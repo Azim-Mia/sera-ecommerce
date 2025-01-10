@@ -15,7 +15,7 @@ const SearchBar = ()=>{
   return (<>
   <form onSubmit={handleSearch} className="flex gap-3 text-2xl h-10 mt-3 mb-2">
   <input type="text" ref={searchValue} name="search" placeholder="search products" className=" border text-center rounded-md cursor-pointer w-3/4 sm:w-5/6" />
-    <button type="submit"><Image src ="/search.png" alt="logo" width={32} height={32} className="h-10 rounded-md" /></button>
+    <button type="submit"><Image src ="/images/search.png" alt="logo" width={32} height={32} className="h-10 rounded-md" /></button>
     </form>
   </>)
 }
