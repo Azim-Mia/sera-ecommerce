@@ -5,10 +5,14 @@ const nextConfig = {
       {
       protocol:"https",
       hostname:"google.com",
+      },
+      {
+      protocol:"https",
+      hostname:"pixabay.com",
       }
     ]
-  },
-    images:{
+  }
+    /*images:{
     localPatterns:[
       {
 pathname: '/assets/images/**',
@@ -19,7 +23,7 @@ pathname: '/images/**',
         search: '',
       },
     ]
-    }
+    }*/
 };
 
 export default nextConfig;
