@@ -1,5 +1,10 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import bkashImg from '../assets/images/bkash.png';
+import nogotImg from '../assets/images/nogot.png';
+import paypalImg from '../assets/images/paypal.png';
+import rocketImg from '../assets/images/rocket.png';
+import master_cartImg from '../assets/images/master_cart.png';
 const Footer =()=>{
   return(<>
   <div className="flex justify-center gap-24 items-center py-12 px-4 md:px-8 lg:px-16 xl:px-32 2xl:px-64 bg-[#000] text-[#FFF] text-sm mt-24">
@@ -20,7 +25,7 @@ const Footer =()=>{
   </div>
     </div>
     {/*CENTER*/}
-    <div className="flex gap-6">
+    <div className="flex gap-6 xs:ml-10">
         <div className="flex flex-col gap-6">
           <h1>COMPANY</h1>
         <div className="flex flex-col">
@@ -62,11 +67,11 @@ const Footer =()=>{
       <div>
       <span className="text-semibold">Surce Payments</span>
         <div className="flex gap-4" >
-      <Image src="/images/instagram.png" width={40} height={20} alt="image" />
-      <Image src="/images/instagram.png" width={40} height={20} alt="image" />
-      <Image src="/images/instagram.png" width={40} height={20} alt="image" />
-      <Image src="/images/instagram.png" width={40} height={20} alt="image" />
-      <Image src="/images/instagram.png" width={40} height={20} alt="image" />
+      <Image src={bkashImg} width={40} height={20} alt="image" />
+      <Image src={master_cartImg} width={40} height={20} alt="image" />
+      <Image src={nogotImg} width={40} height={20} alt="image" />
+      <Image src={rocketImg} width={40} height={20} alt="image" />
+      <Image src={paypalImg} width={40} height={20} alt="image" />
       </div>
       </div>
       </div>
