@@ -1,4 +1,6 @@
 import Image from 'next/image';
+import product_1 from '../assets/images/product_1.jpeg'
+import product_2 from '../assets/images/product_2.jpeg'
 const CartModuls = ()=>{
   const isCart =true;
   return (<div className="w-max absolute p-4 rounded-md shadow-[_0_3px_10px_rgb(0.0.0.2)] bg-white top-24  right-5 flex flex-center items-center">
@@ -8,7 +10,7 @@ const CartModuls = ()=>{
   {/*Product --1*/}
   <>
   <div className="flex justify-between gap-2">
-    <Image src="/images/product_5.jpeg" alt="products" width={72} height={96} className="object-cover rounded-md"/>
+    <Image src={product_1} alt="products" width={72} height={96} className="object-cover rounded-md"/>
     {/*top*/}
     <div className="flex flex-col justify-between w-full">
      {/*title*/}
@@ -27,7 +29,7 @@ const CartModuls = ()=>{
   </div>
 {/*Product --2*/}
  <div className="flex justify-between gap-2">
-    <Image src="/images/product_4.jpeg" alt="products" width={72} height={96} className="object-cover rounded-md "/>
+    <Image src={product_2} alt="products" width={72} height={96} className="object-cover rounded-md "/>
     {/*top*/}
     <div className="flex flex-col justify-between w-full">
      {/*title*/}

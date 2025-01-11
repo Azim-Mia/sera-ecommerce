@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import ContractUs from './ContractUs';
 import bkashImg from '../assets/images/bkash.png';
 import nogotImg from '../assets/images/nogot.png';
 import paypalImg from '../assets/images/paypal.png';
@@ -9,7 +10,7 @@ const Footer =()=>{
   return(<>
   <div className="flex justify-center gap-24 items-center py-12 px-4 md:px-8 lg:px-16 xl:px-32 2xl:px-64 bg-[#000] text-[#FFF] text-sm mt-24">
     {/*TOP*/}
-  <div className="grid xs:grid-cols-1 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-6 2xl:grid-cols-6 gap-8 items-center text-center">
+  <div className="grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-4 xl:grid-cols-6 2xl:grid-cols-6 gap-8 items-center text-center">
     {/*LEFT*/}
     <div className="flex justify-center items-center w-full md:w-1/2 lg:w-1/4 flex-col gap-4">
     <Link href="/">
@@ -55,7 +56,11 @@ const Footer =()=>{
         </div>
         </div>
     {/*RIGHT*/}
- <div className="w-full md:w-1/2 lg:w-1/4 flex flex-col gap-4">
+    {/* ContractUs Information*/}
+    <div className="">
+    <ContractUs />
+    </div>
+ <div className="w-full p-4  md:w-1/2 lg:w-1/4 flex flex-col gap-4 sm:gap-4">
       <div className="">
       <h1 className="font-medium">SUBSCRIBE</h1>
       <p className="mt-4">Be the firsr to get the latest news aboud trends, promotions, and much more! </p>
@@ -65,8 +70,8 @@ const Footer =()=>{
       <button className="w-1/4 bg-lama text-white rounded-sm text-2xl">JOIN</button>
       </div>
       <div>
-      <span className="text-semibold">Surce Payments</span>
-        <div className="flex gap-4" >
+      <span className="text-semibold sm:text-2xl">Surce Payments</span>
+        <div className="flex gap-10 mt-2 sm:gap-12">
       <Image src={bkashImg} width={40} height={20} alt="image" />
       <Image src={master_cartImg} width={40} height={20} alt="image" />
       <Image src={nogotImg} width={40} height={20} alt="image" />

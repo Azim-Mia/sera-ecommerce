@@ -2,57 +2,11 @@
 import React,{useState,useEffect} from 'react';
 import Image from 'next/image'
 import Link from 'next/link';
-import product_1 from '../assets/images/product_1.jpeg'
-import product_2 from '../assets/images/product_2.jpeg'
-import product_3 from '../assets/images/product_3.jpeg'
-import product_4 from '../assets/images/product_4.jpeg'
-import product_5 from '../assets/images/product_5.jpeg'
-import product_6 from '../assets/images/product_6.jpeg'
-const slides=[
-  {
-   id:1,
-   title:"summer sale collections ",
-   des:"Sale! Up to 30% Off!",
-   img:product_1,
-   url:"/",
-   bg:"bg-gradient-to-r from-yellow to-pink",
-  },
-  {
-  id:2,
-   title:"summer sale collections ",
-   des:"Sale! Up to 40% Off!",
-   img:product_2,
-   url:"/",
-   bg:"bg-gradient-to-r from-yellow to-pink",
-  },
-  {
-  id:3,
-   title:"summer sale collections ",
-   des:"Sale! Up to 50% Off!",
-   img:product_3,
-   url:"/",
-   bg:"bg-gradient-to-r from-yellow to-pink",
-  },
-  {
-  id:4,
-   title:"summer sale collections ",
-   des:"Sale! Up to 60% Off!",
-   img:product_4,
-   url:"/",
-   bg:"bg-gradient-to-r from-yellow to-pink",
-  },
-    {
-  id:5,
-   title:"summer sale collections ",
-   des:"Sale! Up to 70% Off!",
-   img:product_5,
-   url:"/",
-   bg:"bg-gradient-to-r from-yellow to-pink",
-  }
-  ];
+import productDatas from '@/lips/productDatas';
 const Slider = ()=>{
+  const productData = productDatas();
   const [current, setCurrent] =useState(0)
-  const [slideData, setSlideData] =useState(slides);
+  const [slideData, setSlideData] =useState(productData);
   useEffect(()=>{
   const setInvId =setInterval(()=>{
     setCurrent((prev)=>(prev === slideData.length -1 ? 0 : prev + 1));
